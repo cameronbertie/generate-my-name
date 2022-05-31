@@ -1,0 +1,25 @@
+When button is clicked update state with new values
+
+For the less curious, just know that in React, whenever you define an event handler that uses `this`, you need to add `this.methodName = this.methodName.bind(this)`
+
+constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      adjective: "",
+      nationality: "",
+      bodypart: "",
+      animal: "",
+    };
+  }
+
+  handleClick() {
+    alert("Button Clicked");
+  }
+
+  const handleChange = ({target}) => {
+    const { name, value } = target;
+    setFormState((prev) => ({
+      ...prev,
+      [name]: value
+    }));

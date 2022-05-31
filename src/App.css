@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c18794;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    padding: 0 !important;
+    width: 540px;
+    margin: auto;
+  }
+
+  .form-container {
+    margin: auto;
+    width: 370px !important;
+  }
+
+  .main-heading {
+    font-size: 32px !important;
+  }
+
+  .generated-name {
+    font-size: 32px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    padding: 0 !important;
+    width: 720px;
+    margin: auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    padding: 0 !important;
+    width: 960px;
+    margin: auto;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    padding: 0 !important;
+    width: 1140px;
+    margin: auto;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .container {
+    padding: 0 !important;
+    width: 1320px;
+    margin: auto;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 24px;
+  font-family: "Inter", sans-serif !important;
+}
+
+.main-heading {
+  color: #c18794;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  margin: 0;
+  font-size: 16px;
+}
+
+.secondary-heading {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 10.72px;
+  color: white;
+}
+
+/* FORM */
+.page-container {
+  padding: 60px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 0px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 0px;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+p {
+  margin: 0;
+}
+
+.form-container {
+  margin: auto;
+  width: 100%;
+}
+
+.input-group {
+  margin-bottom: 25px;
+}
+
+.input-label {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 11px;
+}
+
+input {
+  border: 1px solid #c18794;
+  background: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  padding: 8px 16px;
+  width: 100%;
+  margin-bottom: 19px;
+  box-sizing: border-box;
+}
+
+.white-placeholder::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.white-placeholder:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.white-placeholder::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: white;
+}
+
+.submit-button:hover {
+  background-color: #c18794;
+}
+
+.new-name-button {
+  background-color: #c18794;
+}
+
+.new-name-button:hover {
+  background-color: white;
+}
+
+.name-heading {
+  color: #c18794;
+}
+
+.generated-name {
+  color: white;
+  font-size: 32px;
+}
+
+.form-heading {
+  color: white;
+  font-size: 24px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: auto;
+  color: white;
+  margin-bottom: 60px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.footer-item-1 {
+  font-size: 10.72px;
+  width: 33.3%;
+  flex-grow: 1;
+}
+
+.footer-item-2 {
+  font-size: 13.28px;
+  width: 33.3%;
+  flex-grow: 1;
+}
+
+.footer-item-3 {
+  font-size: 10.72px;
+  width: 33.3%;
+  flex-grow: 1;
+}
+
+.footer-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+  row-gap: 16px;
+  flex-wrap: wrap;
+}
+
+.footer-nav-link {
+  text-align: center;
+}
+
+.footer-message-container {
+  display: flex;
+  justify-content: right;
+}
+
+.header-container {
+  padding-top: 24px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.logo {
+  height: 32px;
+  width: auto;
+}
