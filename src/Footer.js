@@ -7,7 +7,7 @@ class Footer extends React.Component {
       <footer>
         <div className="footer-container">
           <div className="footer-item-1">
-            <p>© 10 Controls, 2022</p>
+            <p>© 2022</p>
           </div>
           <div className="footer-item-2">
             <div className="footer-nav-container">
@@ -21,19 +21,18 @@ class Footer extends React.Component {
                   <a href="#">Terms of Use</a>
                 </p>
               </div> */}
-              <div className="footer-nav-link">
+              {/* <div className="footer-nav-link">
               <a href="https://10controls.com/" target="_blank" rel="noreferrer">
             <img src={logo} alt="Logo" className="logo" />
           </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="footer-item-3">
             <div className="footer-message-container">
               <div className="footer-message">
                 <p>
-                  Made with <span style={{ color: "#C18794" }}>❤️</span> in
-                  Slough, England
+                  Made with <span style={{ color: "#C18794" }}>❤️</span>
                 </p>
               </div>
             </div>

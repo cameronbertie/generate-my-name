@@ -8,7 +8,7 @@ class Header extends React.Component {
           <h1 className="main-heading">
             GENERATE<span style={{ color: "white" }}>MY</span>NAME.COM
           </h1>
-          <p className="secondary-heading">Created By 10 Controls</p>
+          <p className="secondary-heading">Created By Cameron Bertie</p>
         </div>
       </header>
     );
